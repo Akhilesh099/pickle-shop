@@ -66,7 +66,7 @@ export default function CheckoutPage() {
             message += `Address: ${formData.address}, ${formData.city} - ${formData.pincode}\n`;
 
             const encodedMessage = encodeURIComponent(message);
-            const whastappUrl = `https://wa.me/918341624443?text=${encodedMessage}`;
+            const whastappUrl = `https://wa.me/919059418750?text=${encodedMessage}`;
 
             window.open(whastappUrl, '_blank');
 
